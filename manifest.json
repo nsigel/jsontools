@@ -1,0 +1,25 @@
+{
+  "name": "jsonTools",
+  "version": "0.0.1",
+  "description": "Automatically beautifies any page that loads pure JSON",
+  "manifest_version": 2,
+
+  "browser_action": {
+    "default_icon": "./icons/512x512.png"
+  },
+  "icons": {
+    "16": "./icons/16x16.png",
+    "48": "./icons/48x48.png",
+    "128": "./icons/128x128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "run_at": "document_end",
+      "js": ["jsonBeautifier.js"]
+    }
+  ],
+  "web_accessible_resources": ["defaultTheme.css"],
+  "permissions": ["*://*/"]
+}
