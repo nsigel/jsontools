@@ -1,18 +1,16 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 * {
-  font-family: "Poppins";
+  background-color: rgb(27, 27, 39);
+  font-family: 'Roboto Mono';
   font-size: 16px;
   margin: 0;
   box-sizing: border-box;
 }
 
-body {
-  background-color: #16161e;
-}
+
 
 pre {
-  background-color: rgb(27, 27, 39);
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 20px; 
   padding: 1.5rem;
   color: #afb012;
@@ -20,13 +18,15 @@ pre {
 
 .json-key {
   color: #659fe6;
-  }
+}
+
 .json-value {
   color:#e49763;
-  }
+}
+
 .json-string {
   color: #8ecb68;
-  }
+}
 
 
 ::-webkit-scrollbar {
