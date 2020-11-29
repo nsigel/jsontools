@@ -1,16 +1,3 @@
-if (!formatterLib) var formatterLib = {};
-
-formatterLib.json = {
-  defaults: {
-    "json-key": "#659fe6",
-    "json-string": "#8ecb68",
-    "json-value": "#e49763",
-    foreground: "#1b1b27",
-    background: "#16161e",
-    other: "#7D7D7D",
-  },
-};
-
 function handleChange(event) {
   chrome.storage.sync.set({ [event.target.id]: event.target.value }, () => {
     console.log({ [event.target.id]: event.target.value });
