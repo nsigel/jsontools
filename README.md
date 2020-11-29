@@ -8,7 +8,7 @@ Automatically format and colorize any JSON endpoint you go to!
 * [Download me!](https://github.com/fourwadu/jsontools/archive/main.zip)
 * Go to `chrome://extensions`
 * Enable developer mode in the top right
-* Drag the downloaded zip from the first zip
+* Drag the downloaded zip from the first step
 
 ## Credits
 
