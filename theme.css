@@ -1,33 +1,35 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
+body {
+  background-color: var(--background);
+}
+
 * {
-  background-color: rgb(27, 27, 39);
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
   font-size: 16px;
   margin: 0;
   box-sizing: border-box;
 }
 
-
-
 pre {
   /* border: 1px solid black; */
-  margin: 20px; 
+  color: var(--other);
+  margin: 20px;
   padding: 1.5rem;
-  color: #afb012;
-  }
+  background-color: var(--foreground);
+}
 
 .json-key {
-  color: #659fe6;
+  color: var(--json-key);
 }
 
 .json-value {
-  color:#e49763;
+  color: var(--json-value);
 }
 
 .json-string {
-  color: #8ecb68;
+  color: var(--json-string);
 }
-
 
 ::-webkit-scrollbar {
   width: 20px;

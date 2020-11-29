@@ -1,4 +1,27 @@
-#### JSON PATH TOOLS CHROME EXTENSION 
+# jsonTools
+
+
+Automatically format and colorize any JSON endpoint you go to!
+
+## Installation
+#### jsonTools currently supports only chrome based browsers!
+* [Download me!](https://github.com/fourwadu/jsontools/archive/main.zip)
+* Go to `chrome://extensions`
+* Enable developer mode in the top right
+* Drag the downloaded zip from the first zip
+
+## Credits
+
+Back-end - [sauce](https://github.com/saucesteals) ([@saucesteals](https://twitter.com/saucesteals))\
+Front-end - [wadu](https://github.com/fourwadu) ([@fourwadu](https://github.com/fourwadu))
+
+## Contributing
+ 
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
 
 ## License
  

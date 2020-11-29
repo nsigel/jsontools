@@ -4,29 +4,44 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>jsonTools Settings</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="settings.css">
     </head>
     <body>
         <div class="container">
             <div class="settings">
                 <h1>Settings</h1>
-                <div class="key">
-                    <label for="keys">Key:</label>
-                    <input id="keys" name="keys" type="color" required>
+                <div class="json-key">
+                    <label for="json-key">Keys:</label>
+                    <input id="json-key" name="json-key" type="color" required>
                 </div>
-                <div class="values">
-                    <label for="values">Values:</label>
-                    <input id="values" name="values" type="color" required>
+                <div class="json-string">
+                    <label for="json-string">Strings:</label>
+                    <input id="json-string" name="json-string" type="color" required>
                 </div>
-                <div class="bools">
-                    <label for="bools">Bools</label>
-                    <input id="bools" name="bools" type="color" required>
+                <div class="json-value">
+                    <label for="json-value">Bools/Ints:</label>
+                    <input id="json-value" name="json-value" type="color" required>
+                </div>
+                <div class="foreground">
+                    <label for="foreground">Foreground:</label>
+                    <input id="foreground" name="foreground" type="color" required>
+                </div>
+                <div class="background">
+                    <label for="background">Background:</label>
+                    <input id="background" name="background" type="color" required>
+                </div>
+                <div class="other">
+                    <label for="other">Other:</label>
+                    <input id="other" name="other" type="color" required>
+                </div>
+                <div class="reset">
+                    <button class="resetbtn">Reset</button>
                 </div>
             </div>  
         </div>  
-        <script src="index.js"></script>
+        <script src="settings.js"></script>
     </body>
 </html>

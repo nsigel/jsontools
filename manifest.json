@@ -3,9 +3,16 @@
   "version": "0.0.1",
   "description": "Automatically beautifies any page that loads pure JSON",
   "manifest_version": 2,
-
+  "options_ui": {
+    "page": "settings.html",
+    "open_in_tab": true
+  },
   "browser_action": {
-    "default_icon": "./icons/512x512.png"
+    "default_icon": {
+      "16": "./icons/16x16.png",
+      "48": "./icons/48x48.png",
+      "128": "./icons/128x128.png"
+    }
   },
   "icons": {
     "16": "./icons/16x16.png",
@@ -20,6 +27,6 @@
       "js": ["jsonBeautifier.js"]
     }
   ],
-  "web_accessible_resources": ["defaultTheme.css"],
-  "permissions": ["*://*/"]
+  "web_accessible_resources": ["theme.css"],
+  "permissions": ["*://*/", "storage"]
 }

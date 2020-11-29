@@ -4,10 +4,29 @@
     background-color: rgb(27, 27, 39);
     color: #a9b1d6;
     font-family: 'Poppins';
-    font-size: 24px;
+    font-size: 30px;
     margin: 0;
 }
 
+
+
+.resetbtn {
+    position: relative;
+    margin-left: 3.1rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+    font-weight: bold;
+    padding: 7px 10px 10px 10px;
+    text-decoration: none;
+    color: #FFF;
+    background: #a180dc;
+    transition: .4s;
+    border-radius: 15px;
+}
+
+.resetbtn:hover {
+    background: #91b5fb;
+}
 
 ::-webkit-scrollbar {
     width: 20px;
@@ -42,8 +61,9 @@ html, body {
 }
 
 h1 { 
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     text-align: center;
+    font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,8 +77,8 @@ label {
     color: #787c99;
     width:180px;
     clear:left;
-    padding-right:10px;
-    padding-bottom: 25px;
+    padding-right:60px;
+    padding-bottom: 30px;
 }
 
 input, label {
